@@ -20,7 +20,6 @@ rm -rf $1/app/OPBackup
 rm -rf $1/app/QQBrowser
 rm -rf $1/app/ARCore_stub
 rm -rf $1/app/AntHalService
-rm -rf $1/app/Calculator
 rm -rf $1/app/CtsShimPrebuilt
 rm -rf $1/app/EngineeringMode
 rm -rf $1/app/EngSpecialTest
@@ -40,7 +39,6 @@ rm -rf $1/app/OemAutoTestServer
 rm -rf $1/app/OpLogkit
 rm -rf $1/app/SmscPlugger
 rm -rf $1/app/OPInstantTranslation
-rm -rf $1/app/Calendar
 rm -rf $1/app/Exchange2
 rm -rf $1/app/NFCTestMode
 rm -rf $1/app/NxpNfcNci
@@ -50,7 +48,6 @@ rm -rf $1/app/OposAds
 rm -rf $1/app/QColor
 rm -rf $1/app/SensorTestTool
 rm -rf $1/app/SoterService
-rm -rf $1/app/SoundRecorder
 rm -rf $1/app/nearme
 rm -rf $1/app/heytap_mcs_cn
 rm -rf $1/app/WifiRfTestApk
@@ -59,8 +56,6 @@ rm -rf $1/app/ARCore_stub
 rm -rf $1/app/CompanionDeviceManager
 rm -rf $1/app/aptxals
 rm -rf $1/app/aptxui
-rm -rf $1/priv-app/OnePlusCamera
-rm -rf $1/priv-app/OnePlusGallery
 rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/CtsShimPrivPrebuilt
 rm -rf $1/priv-app/HotwordEnrollmentXGoogleWCD9340
@@ -71,9 +66,6 @@ rm -rf $1/priv-app/TagGoogle
 rm -rf $1/priv-app/ONS
 rm -rf $1/priv-app/LocalTransport
 rm -rf $1/priv-app/Houston
-rm -rf $1/priv-app/OPAppCategoryProvider
-rm -rf $1/priv-app/OPDeviceManager
-rm -rf $1/priv-app/OPDeviceManagerProvider
 rm -rf $1/priv-app/AutoNaviNLP
 rm -rf $1/priv-app/BlockedNumberProvider
 rm -rf $1/priv-app/CallLogBackup
@@ -82,7 +74,6 @@ rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/IFAAService
 rm -rf $1/priv-app/NearmeBrowser
 rm -rf $1/priv-app/OPFindMyPhone
-rm -rf $1/priv-app/OPMarket
 rm -rf $1/priv-app/OPVoiceAssistant
 rm -rf $1/priv-app/OPVoiceWakeUp
 rm -rf $1/priv-app/Tag
@@ -106,7 +97,6 @@ rm -rf $1/product/app/GoogleAssistant
 rm -rf $1/product/app/GoogleTTS
 rm -rf $1/product/app/Photos
 rm -rf $1/product/app/com.google.mainline.telemetry
-rm -rf $1/product/app/Calculator
 rm -rf $1/product/app/Drive
 rm -rf $1/product/app/YTMusic
 rm -rf $1/product/app/CalendarGoogle
