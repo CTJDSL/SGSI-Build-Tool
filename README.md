@@ -1,7 +1,7 @@
 # SGSI-build-tool
 
 ## [Original Repo](https://github.com/xiaoxindada/SGSI-build-tool)
-## [GitHub Action](https://github.com/rahulkhatri137/sGSIbot)
+## [GitHub Action](https://github.com/As9124k82134/Build-SGSI-Actions)
 
 * Full credits to [Xiaoxindada](https://github.com/xiaoxindada)
 * Special Thanks to [Erfan Abdi](https://github.com/erfanoabdi) for Firmware Extractor
@@ -22,7 +22,7 @@
 ## Setup
 ```
 GitHub:  
-git clone --recurse-submodules https://github.com/rahulkhatri137/SGSIs -b main11
+git clone --recurse-submodules https://github.com/As9124k82134/SGSI-Build-Tool.git -b main11
 cd SGSIs
 su
 chmod -R 777 ./
@@ -32,6 +32,8 @@ chmod -R 777 ./
 ## Build SGSI:
 ```
 sudo bash url2SGSI.sh <URL> <TYPE>:<NAME>
+
+Supported types: Generic, Pixel, MIUI, Flyme, ColorOS, RogUI, JoyUI, VOS, Nubia, Moto, MyOS, OxygenOS, RedMagicOS.
 ```
 
 ## OutPut
