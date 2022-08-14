@@ -46,26 +46,14 @@ python_install(){
 
 pip_module_install(){
     echo -e "\033[33m [$INFO_STR] $INSTALLING_PYTHONMOD... \033[0m"
-    if [[ "$USE_MIRROR_FOR_PIP" == "true" ]] ; then
-        sudo pip install backports.lzma pycryptodome pycrypto -i $PIP_MIRROR
-        sudo pip3 install backports.lzma pycryptodome pycrypto -i $PIP_MIRROR
-    elif [[ "$USE_MIRROR_FOR_PIP" == "false" ]] ; then
         sudo pip install backports.lzma pycryptodome pycrypto
         sudo pip3 install backports.lzma pycryptodome pycrypto
-    fi
     
     echo -e "\033[33m [$INFO_STR] $INSTALLING_PYTHONMOD requirements\033[0m"
-    if [[ "$USE_MIRROR_FOR_PIP" == "true" ]] ; then
-        for requirements_list in $(find $LOCALDIR -type f | grep "requirements.txt");do
-            sudo pip install -r $requirements_list -i $PIP_MIRROR
-            sudo pip3 install -r $requirements_list -i $PIP_MIRROR
-        done
-    elif [[ "$USE_MIRROR_FOR_PIP" == "false" ]] ; then
         for requirements_list in $(find $LOCALDIR -type f | grep "requirements.txt");do
             sudo pip install -r $requirements_list
             sudo pip3 install -r $requirements_list
         done
-    fi
 }
 
 debug_packages_version(){
