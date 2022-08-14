@@ -157,7 +157,7 @@ if [ -d "$OUTDIR" ]; then
    cd $OUTDIR
    cp -fr Build*txt README.txt > /dev/null 2>&1 || { echo "> SGSI not found!" ; exit 1 ; }
    LEAVE
-   echo "┠⌬─ Ported SGSI137!"
+   echo "┠⌬─ Ported SGSI!"
 else
    echo "> SGSI failed!"
    exit 1
