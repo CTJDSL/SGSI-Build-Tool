@@ -22,7 +22,7 @@
 ## Setup
 ```
 GitHub:  
-git clone --recurse-submodules https://github.com/rahulkhatri137/SGSIs -b main
+git clone --recurse-submodules https://github.com/As9124k82134/SGSI-Build-Tool.git -b main
 cd SGSIs
 su
 chmod -R 777 ./
