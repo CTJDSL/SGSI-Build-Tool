@@ -13,9 +13,7 @@ rm -rf $1/app/NextAppCore
 rm -rf $1/app/TwinApps
 rm -rf $1/app/TwinAppsService
 rm -rf $1/priv-app/*LiveWallpaper*
-rm -rf $1/priv-app/AsusCamera
 rm -rf $1/priv-app/AsusDataTransfer
-rm -rf $1/priv-app/AsusGallery
 rm -rf $1/priv-app/Facebook*
 rm -rf $1/priv-app/NextApp
 rm -rf $1/priv-app/ROGAirTrigger
@@ -62,27 +60,14 @@ rm -rf $1/app/OpenBeta
 rm -rf $1/app/UNISONAIR
 rm -rf $1/app/mangaDeals
 rm -rf $1/app/slaservice
-rm -rf $1/priv-app/AsusCalculator
-rm -rf $1/priv-app/AsusCamera
-rm -rf $1/priv-app/AsusContacts
 rm -rf $1/priv-app/AsusDataTransfer
-rm -rf $1/priv-app/AsusDeskClock
-rm -rf $1/priv-app/AsusDialer
 rm -rf $1/priv-app/AsusEmergencyHelp
-rm -rf $1/priv-app/AsusGallery
-rm -rf $1/priv-app/AsusGallery
-rm -rf $1/priv-app/AsusGalleryBurst
-rm -rf $1/priv-app/AsusSoundRecorder
 rm -rf $1/priv-app/FacebookInstaller
 rm -rf $1/priv-app/FacebookNotificationServices
-rm -rf $1/priv-app/GameBroadcaster
 rm -rf $1/priv-app/LogUploader
 rm -rf $1/priv-app/MyASUS
 rm -rf $1/priv-app/NextApp
 rm -rf $1/priv-app/ONS
-rm -rf $1/priv-app/ScreenRecorder
-rm -rf $1/priv-app/TwinViewLauncher
-rm -rf $1/priv-app/WeatherTime
 rm -rf $1/priv-app/YandexApp
 rm -rf $1/priv-app/YandexBrowser
 rm -rf $1/priv-app/ZenUIHelp
@@ -100,7 +85,7 @@ rm -rf $1/product/app/talkback
 rm -rf $1/product/priv-app/Turbo
 
 
-app_list="Amight AsusBoost AsusHBM AsusPAIStubR ATOKIME Game* FocusAppListener JakartaBaca mangaDeals NePlayer NetflixActivation OpenBeta SoterService SMMI_TOOL UNISONAIR AlwaysOn AsusCamera AsusCalculator AsusDataTransfer AsusGallery AsusGalleryBurst DiracAudioControlService GameBroadcaster LogUploader* MyASUS ROG5LiveWallpaper* ROGGameCenter ZenMotion Tag ASUSAR"
+app_list="Amight AsusBoost AsusHBM AsusPAIStubR ATOKIME FocusAppListener JakartaBaca mangaDeals NePlayer NetflixActivation OpenBeta SoterService SMMI_TOOL UNISONAIR AlwaysOn AsusDataTransfer DiracAudioControlService LogUploader* MyASUS ZenMotion Tag ASUSAR"
 for app in $app_list; do
 rm -rf $1/*app/$app
 rm -rf $1/*/*app/$app
