@@ -137,7 +137,7 @@ if ! [ $image == true ];then
     fi
 
 #Extract firmware
- "$LOCALDIR"/make.sh $build $URL || { echo "> Failed to extract!" ; exit  1 ; }
+ "$LOCALDIR"/make.sh $build $TMPDIR || { echo "> Failed to extract!" ; exit  1 ; }
 
 #SGSI Time
 cd $LOCALDIR
