@@ -356,7 +356,7 @@ elif [[ $(grep "ro.build.id" $systemdir/build.prop) ]]; then
 fi
 displayid2=$(echo "$displayid" | sed 's/\./\\./g')
 bdisplay=$(grep "$displayid" $systemdir/build.prop | sed 's/\./\\./g; s:/:\\/:g; s/\,/\\,/g; s/\ /\\ /g')
-sed -i "s/$bdisplay/$displayid2=Ported\.by\.RK137/" $systemdir/build.prop
+sed -i "s/$bdisplay/$displayid2=Ported\.by\.Mr_ErenK/" $systemdir/build.prop
 
   # 为rom添加oem服务所依赖的hal接口
   rm -rf ./vintf
