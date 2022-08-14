@@ -3,9 +3,6 @@ cd $LOCALDIR
 systemdir=$1
 
 rm -rf $1/../res/images/*
-rm -rf $1/*/*app/*Recorder*
-rm -rf $1/*app/*Recorder*
-rm -rf $1/*app/Compass
 rm -rf $1/*app/*Warranty*
 rm -rf $1/*/*app/*Map*
 rm -rf $1/*app/*Map*
@@ -31,7 +28,6 @@ rm -rf $1/*/*app/*OTA*
 rm -rf $1/*app/*OTA*
 rm -rf $1/*app/*ppstore*
 rm -rf $1/*/*app/*ppstore*
-rm -rf $1/*app/*Game*
 
 rm -rf $1/app/HarassIntercept*
 rm -rf $1/app/Jobdispatcer*
@@ -56,7 +52,6 @@ rm -rf $1/fonts/NotoSerif*
 rm -rf $1/media/*/*nubia*
 rm -rf $1/media/wallpaper/1920*
 rm -rf $1/media/wallpaper/middle*
-rm -rf $1/*app/*Game*
 rm -rf $1/*app/*Emergency*
 rm -rf $1/*app/*Tencent*
 rm -rf $1/*/*app/*Tencent*
