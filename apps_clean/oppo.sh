@@ -12,7 +12,6 @@ rm -rf $1/../my_heytap/priv-app/*Auto*
 rm -rf $1/../my_preload/app/*
 rm -rf $1/../my_preload/del-app/*
 rm -rf $1/../my_region/*app/*
-rm -rf $1/../my_stock/app/*Game*
 rm -rf $1/../my_stock/app/*KeKe*
 rm -rf $1/../my_stock/app/*Karaoke*
 rm -rf $1/../my_stock/app/*Pay*
@@ -36,8 +35,6 @@ rm -rf $1/app/Calculator2
 rm -rf $1/app/ChildrenSpace
 rm -rf $1/app/EmailPartnerProvider
 rm -rf $1/app/FindMyPhoneClient
-rm -rf $1/*app/*Game*
-rm -rf $1/app/Ocrscanner
 rm -rf $1/app/Oshare
 rm -rf $1/app/OV*
 rm -rf $1/app/com.*
