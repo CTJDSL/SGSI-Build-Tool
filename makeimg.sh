@@ -79,8 +79,8 @@ codename=$(grep -oP "(?<=^ro.product.vendor.device=).*" -hs "$TARGETDIR/vendor/b
 
 #Out Variable
 date=`date +%Y%m%d`
-outputname="$name-11-$date-$codename-SGSI137"
-ioutputname="$name-AB-11-$date-$codename-SGSI137"
+outputname="$name-11-$date-$codename"
+ioutputname="$name-AB-11-$date-$codename"
 outputimagename="$ioutputname".img
 outputtextname="Build-info-$outputname".txt
 output="$OUTDIR/$outputimagename"
