@@ -1,7 +1,7 @@
 # SGSI-build-tool
 
 ## [Original Repo](https://github.com/xiaoxindada/SGSI-build-tool)
-## [GitHub Action](https://github.com/As9124k82134/Build-SGSI-Actions)
+## [GitHub Action](https://github.com/MrErenK/Build-SGSI-Actions)
 
 * Full credits to [Xiaoxindada](https://github.com/xiaoxindada)
 * Special Thanks to [Erfan Abdi](https://github.com/erfanoabdi) for Firmware Extractor
@@ -22,7 +22,7 @@
 ## Setup
 ```
 GitHub:  
-git clone --recurse-submodules https://github.com/As9124k82134/SGSI-Build-Tool.git -b main
+git clone --recurse-submodules https://github.com/Mr_ErenK/SGSI-Build-Tool.git -b main
 cd SGSIs
 su
 chmod -R 777 ./
