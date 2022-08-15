@@ -66,7 +66,7 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 if [[ ! -n $2 ]]; then
     echo "> ERROR!"
     echo " - Enter all needed parameters"
-    usage
+    $Usage
     exit 1
 fi
 
