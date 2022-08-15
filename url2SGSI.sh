@@ -11,6 +11,14 @@ DL="${SCRIPTDIR}/dl.sh"
 fixbug="--fix-bug"
 image=false
 build="AB"
+usage="
+<Firmware link> <Firmware type> [Other args]
+Firmware link: Firmware download link or local path
+Firmware type: Firmware source type
+Example: <Firmware link> <Firmware type>:<SGSI Name>
+Other args:
+[fb]: Don't Fix bugs in Rom
+[i]: Build image only(Processed/Failed)"
 
 Usage() {
 cat <<EOT
