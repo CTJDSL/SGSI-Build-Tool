@@ -7,8 +7,8 @@ if [ ! -d ".git" ];then
         echo "Forcing updating"
         git init
         git checkout -b main
-        git remote add origin https://github.com/rahulkhatri137/SGSIs.git
-        git fetch https://github.com/rahulkhatri137/SGSIs.git main
+        git remote add origin https://github.com/MrErenK/SGSIs.git
+        git fetch https://github.com/MrErenK/SGSIs.git main
         git remote -v
         git reset --hard FETCH_HEAD
         git clean -df
