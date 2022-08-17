@@ -118,7 +118,7 @@ rm -rf $1/priv-app/MiGameCenterSDKService
 rm -rf $1/priv-app/MiRcs
 rm -rf $1/priv-app/NewHome
 
-app_list="InMIpay MIDrop Cit MIUIHealthGlobal MIUIMiPicks MIUITouchAssistantGlobal XMSFKeepekAll DynamicSystemInstallationService MIShare* MIUIMusic* MIUIYellowPage* DeviceInfo DynamicDDSService dpmserviceapp EmergencyInfo GoogleFeedback seccamservice WfdService MiuiAod MiRecycle MiPics MiPay"
+app_list="InMIpay MIDrop Cit MIUIHealthGlobal MIUIMiPicks MIUITouchAssistantGlobal XMSFKeepekAll MIShare* MIUIMusic* MIUIYellowPage* DeviceInfo dpmserviceapp EmergencyInfo GoogleFeedback seccamservice WfdService MiuiAod MiRecycle MiPics MiPay"
 for app in $app_list; do
 rm -rf $1/*app/$app
 rm -rf $1/*/*app/$app
